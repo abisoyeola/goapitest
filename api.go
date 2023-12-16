@@ -272,5 +272,5 @@ func main() {
 
 	//register users
 	r.POST("/v1/reg/create", CreateUser)
-	r.Run(":8000")
+	r.Run("")
 }
